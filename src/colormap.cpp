@@ -37,7 +37,6 @@ ColorMap::ColorMap( const Preset preset )
 
 ////////////////////////////////////////////////////////////////////////////////
 ColorMap::ColorMap( const std::string& filename ) {
-    // stops_ = loadFromFile( filename );
 }
 
 
@@ -106,36 +105,5 @@ std::string ColorMap::nameForPreset( const Preset preset )
 
     return {};
 }
-
-
-////////////////////////////////////////////////////////////////////////////////
-// std::vector<srgb_t> ColorMap::loadFromFile( const std::string& filename )
-// {
-//    std::ifstream fin;
-//    fin.open( filename );
-//
-//    if ( ! fin.is_open() ) {
-//        return {};
-//    }
-//
-//    nlohmann::json data;
-//
-//    try {
-//        data = nlohmann::json::parse( fin );
-//    } catch ( const std::exception& ) {
-//        return {};
-//    }
-//
-//    std::vector<srgb_t> stops;
-//    stops.reserve( data.size() );
-//
-//    for ( const auto& item : data ) {
-//        srgb_t col( item.at( 0 ).get<float>(), item.at( 1 ).get<float>(), item.at( 2 ).get<float>() );
-//        stops.push_back( col );
-//    }
-//
-//    return stops;
-//}
-
 
 }   //  ::vivid
