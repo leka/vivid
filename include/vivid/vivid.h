@@ -21,7 +21,6 @@
 #include "vivid/color.h"
 #include "vivid/colormap.h"
 #include "vivid/conversion.h"
-#include "vivid/data.h"
 #include "vivid/encoding.h"
 #include "vivid/utility.h"
 #include "vivid/fuzzy.h"
