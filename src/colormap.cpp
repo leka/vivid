@@ -6,7 +6,6 @@
 #include "vivid/interpolation.h"
 
 #include <glm/common.hpp>
-#include <nlohmann/json.hpp>
 #include <fstream>
 #include <iostream>
 #include <cmath>
