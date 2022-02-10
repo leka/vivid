@@ -63,7 +63,6 @@ class ColorMap
 
     private:
 
-        // static std::vector<srgb_t> loadFromFile( const std::string& filename );
         std::vector<srgb_t> stops_;
 };
 
