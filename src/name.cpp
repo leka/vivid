@@ -12,7 +12,6 @@ const std::string& fromRgb( const rgb_t& rgb ) {
 
 ////////////////////////////////////////////////////////////////////////////////
 const std::string& fromIndex( const uint8_t index ) {
-    return data::xterm.at( index ).name;
 }
 
 
