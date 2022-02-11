@@ -10,7 +10,6 @@ namespace vivid::hex {
 
 //////////////////////////////////////////////////////////////////////////////////
 std::string fromIndex( const uint8_t index ) {
-    return hex::fromRgb32( data::xterm.at( index ).rgb32 );
 }
 
 
