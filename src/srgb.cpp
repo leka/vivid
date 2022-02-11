@@ -38,9 +38,6 @@ srgb_t fromAdobe( const adobe_t& adobe ) {
 
 ////////////////////////////////////////////////////////////////////////////////
 srgb_t fromIndex( const uint8_t index ) {
-    return static_cast<srgb_t>(
-        rgb::fromRgb32( data::xterm.at( index ).rgb32 )
-    );
 }
 
 
