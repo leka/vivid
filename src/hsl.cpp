@@ -50,7 +50,6 @@ hsl_t fromHsv( const hsv_t& hsv ) {
 
 ////////////////////////////////////////////////////////////////////////////////
 hsl_t fromIndex( const uint8_t index ) {
-    return hsl::fromRgb( rgb::fromRgb32( data::xterm.at( index ).rgb32 ) );
 }
 
 
