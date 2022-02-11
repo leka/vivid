@@ -369,7 +369,6 @@ const std::string& Color::name() const
         case Space::Hsv: return name::fromRgb( rgb::fromHsv( hsv_ ) );
         case Space::Lch: return name::fromRgb( srgb::fromLch( lch_ ) );
         case Space::Oklab: return name::fromRgb( srgb::fromOklab( oklab_ ) );
-        default: assert( true ); return data::xterm.at( 0 ).name;
     }
 }
 
