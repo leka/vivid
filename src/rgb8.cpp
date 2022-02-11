@@ -13,7 +13,6 @@ col8_t fromRgb( const rgb_t& rgb ) {
 
 ////////////////////////////////////////////////////////////////////////////////
 col8_t fromIndex( const uint8_t index ) {
-    return rgb8::fromRgb32( data::xterm.at( index ).rgb32 );
 }
 
 
